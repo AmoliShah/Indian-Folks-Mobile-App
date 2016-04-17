@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#A7FFEB"
+    tools:context="com.example.android.indianfolks.Garba">
+
+
+    <TextView
+        android:id="@+id/heading_garba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GARBA - GUJARAT"
+        android:textSize="19dp"
+        android:textColor="#00897B"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:id="@+id/garba_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/garba"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/heading_garba"/>
+    <TextView
+        android:id="@+id/garba_tv"
+        android:layout_below="@+id/garba_iv"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:text="Garba is a form of dance which was originated in the state of Gujarat in India.The circular and spiral figures of Garba have similarities to other spiritual dances, such as those of Sufi culture.Traditionally, it is performed during the nine-day Hindu festival Navarātrī.Modern garba is also heavily influenced by Dandiya Raas,a dance traditionally performed by men. The merger of these two dances has formed the high-energy dance that is seen today. "/>
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#A7FFEB"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.indianfolks.Bhangra"
+    tools:showIn="@layout/activity_bhangra">
+
+    <TextView
+        android:id="@+id/heading_bhangra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BHANGRA - PUNJAB"
+        android:textSize="19dp"
+        android:textColor="#00897B"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:id="@+id/bhangra_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bhangra"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/heading_bhangra"/>
+
+    <TextView
+        android:id="@+id/bhangra_tv"
+        android:layout_below="@+id/bhangra_iv"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:text="The term Bhangra refers to the traditional dance originating in the Majha area of the Punjab region.Traditional Bhangra is performed in a circle and is performed using traditional dance steps. The drum is played according to local beats and is accompanied by singing peculiar to Majha which are folk songs called dhola."/>
+</RelativeLayout>

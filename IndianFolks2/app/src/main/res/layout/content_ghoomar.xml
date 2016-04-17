@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A7FFEB"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.android.indianfolks.Ghoomar"
+    tools:showIn="@layout/activity_ghoomar">
+
+    <TextView
+        android:id="@+id/heading_ghoomar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GHOOMAR - RAJASTHAN"
+        android:textSize="19dp"
+        android:textColor="#00897B"
+        android:gravity="center_horizontal"/>
+
+    <ImageView
+        android:id="@+id/ghoomar_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ghoomar"
+        android:layout_margin="16dp"
+        android:layout_below="@+id/heading_ghoomar"/>
+
+    <TextView
+        android:id="@+id/ghoomar_tv"
+        android:layout_below="@+id/ghoomar_iv"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15dp"
+        android:text="Ghoomar is a traditional folk dance of Rajasthan, India. It is performed by women in swirling robes, and accompanied by men and women singing together.This folk dance gets its name from ‘ghoomna’, the pirouetting which displays the spectacular colors of the flowing ‘ghaghara’, the long skirt of the Rajasthani women.This dance is usually done in a circle."/>
+</RelativeLayout>

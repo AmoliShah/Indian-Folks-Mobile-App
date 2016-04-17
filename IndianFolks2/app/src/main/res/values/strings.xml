@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Indian Folks</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display_dances">DisplayDances</string>
+    <string name="title_activity_kuchipudi">Kuchipudi</string>
+    <string name="title_activity_bhangra">Bhangra</string>
+    <string name="title_activity_kathak">Kathak</string>
+    <string name="title_activity_lavani">Lavani</string>
+    <string name="title_activity_ghoomar">Ghoomar</string>
+</resources>
